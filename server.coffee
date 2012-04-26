@@ -11,8 +11,6 @@ app = express.createServer().configure ->
   @use express.logger()
   @use express.bodyParser()
   @use express.methodOverride()
-  @use express.cookieParser 'changeme'
-  @use express.session secret: 'changeme'
   @use express.static 'public'
   @use @router
   @use express.errorHandler
