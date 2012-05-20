@@ -1,15 +1,11 @@
-{
-  "name"   : "node-backbone-todos",
-  "version": "0.0.1",
-  "scripts": {
-    "start": "killall node; coffee server.coffee > server.log 2>&1 &",
-    "stop" : "killall node"
-  },
-  "dependencies": {
-    "coffee-script"   : "1.3.1",
-    "restify"         : "1.4.1",
-    "express"         : "2.5.9",
-    "express-resource": "0.2.4",
-    "mongoose"        : "2.5.14"
+{ "name"   : "asteroid"
+, "version": "0.0.1"
+, "dependencies":
+  { "coffee-script"   : "1.3.1"
+  , "connect-compiler": "0.1.2"
+  , "express"         : "2.5.9"
+  , "handlebars"      : "1.0.5beta"
+  , "hbs"             : "1.0.2"
+  , "mongoose"        : "2.6.4"
   }
 }
